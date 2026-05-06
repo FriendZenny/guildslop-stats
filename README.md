@@ -16,6 +16,12 @@ bash run.sh
 run.bat
 ```
 
+**Android** — requires [Termux](https://termux.dev). Install Python first, then:
+```bash
+pkg install python
+sh run-android.sh
+```
+
 On the first run it will create a virtual environment and install dependencies automatically. Subsequent runs just fetch and update.
 
 ## Output
