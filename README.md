@@ -1,6 +1,6 @@
 # Guild Stats Scraper
 
-Scrapes weekly guild stats from [rockymoon.com](https://www.rockymoon.com) and saves them to a local spreadsheet. Each run logs a dated snapshot and shows what changed since the last run.
+Run weekly to scrape guild stats from [rockymoon.com](https://www.rockymoon.com) and save them to a local spreadsheet. Each run logs a dated snapshot and shows what changed since the last run.
 
 ## Setup
 
