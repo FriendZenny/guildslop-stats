@@ -5,6 +5,7 @@ Run weekly to scrape guild stats from [rockymoon.com](https://www.rockymoon.com)
 ## Setup
 
 No manual setup needed. Just run the script for your platform and it handles everything.
+On the first run it will create a virtual environment and install dependencies automatically. Subsequent runs just fetch and update.
 
 **Linux / Mac**
 ```bash
@@ -16,13 +17,12 @@ bash run.sh
 run.bat
 ```
 
-**Android** — requires [Termux](https://termux.dev). Install Python first, then:
+**Android** — requires [Termux](https://termux.dev).
+You will have to launch Termux, and from that shell install Python the first time. After that you can just use the sh script in Termux:
 ```bash
 pkg install python
 sh run-android.sh
 ```
-
-On the first run it will create a virtual environment and install dependencies automatically. Subsequent runs just fetch and update.
 
 ## Output
 
